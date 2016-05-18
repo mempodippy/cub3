@@ -8,7 +8,8 @@ So here I am! Providing a PoC work around for both inconveniences. </br>
 xattr is supported by the ext2, ext3, ext4, JFS, Squashfs, Yaffs2, ReiserFS, XFS, Btrfs, OrangeFS, Lustre, OCFS2 1.6 and F2FS file systems in Linux. If you're trying to install <i>cub3</i> on an unsupported file system, that's your fault for being on a box with a terrible file system.</br>
 You can easily adapt this to be much better. Improvements can be made, such as using a random magic xattr string.</br></br>
 As far as process hiding goes, you can still use GID protections for process hiding, but ONLY for process hiding. You can't use xattr protection for process hiding as the procfs (the file system used by /proc/) doesn't support extended attributes.</br>
-Extended attributes can also be disabled in the kernel, too.</br></br>
+Extended attributes can also be disabled in the kernel, too.</br>
+<a href="http://pastebin.com/rZvjDzFK">http://pastebin.com/rZvjDzFK</a> is an example GID bruteforcer.</br></br>
 
 ## installation instructions
 
